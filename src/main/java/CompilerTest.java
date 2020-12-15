@@ -19,7 +19,7 @@ public class CompilerTest {
                 null,
                 null,
                 null,
-                List.of( "-Xdoclint:-options" ),
+                List.of( "-Xdoclint:-missing" ),
                 emptyList(),
                 javaSourceFiles
         );
